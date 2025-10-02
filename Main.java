@@ -2,7 +2,7 @@ import Factories.*;
 public class Main {
     public static void main(String[] args) {
 
-        for (int j = 0; j < 7; j++) {
+        for (int j = 0; j <= 7; j++) {
             System.out.println((j+1) + ".");
             PawnFactory.getPawn("white").draw(j, 2);
         }
